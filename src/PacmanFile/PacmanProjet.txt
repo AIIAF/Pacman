@@ -1,0 +1,59 @@
+Analyse du problème - Domaine
+
+Le dommaine : 
+le labyrinthe: est composé d'un ensemble d'éléments
+composés de cases vides, de murs, d'un seul pacman, de fantômes, de pac-gommes, de fruits et de champignons.
+Personnage mobile :le pacman posséde un certain nombre de vies, nombre de points et un état, et le fantôme.
+Aiments. 
+Tout élément posséde une position initiale dans le labyrinthe. 
+Tout élément à part le mur peut disparaître.
+Pacman a encore des vies ou pas. 
+
+
+Une règle métier: 
+stipule que tant que Pacman a des vies, il peut manger des aliments ou être mangés par les 
+fantômes.S'il change en SuperPacman, il peut manger des fantômes, jusqu'à la fin de la partie. Tout est ce qui est
+mangé disparaît.
+
+(lorsqu’un fantôme mange Pac-Man, celui-ci perd une vie.
+ Lorsque Pac-Man mange un fantôme,
+celui-ci est renvoyé dans la salle centrale et Pac-Man gagne 20 points.
+De plus, sur les cases du labyrinthe où se déplacent Pac-Man et les fantômes, peuvent se trouver des
+aliments, soit des pac-gommes, soit des fruits, soit des champignons. Lorsque Pac-Man se déplace
+sur une telle case, il mange ce qui s’y trouve. Les fantômes y sont, par contre, insensibles.
+Lorsque Pac-Man mange une pac-gomme, il gagne un point. Lorsqu’il mange un fruit, il devient
+Super Pac-Man. Manger un champignon permet de mémoriser la situation du jeu ce qui permettra
+d’y revenir dans certaines circonstances.
+De plus, lorsque Pac-Man mange une pac-gomme, il gagne donc un point. Lorsqu’il mange un fruit,
+il devient Super Pac-Man. Pour cette itération, par contre, manger un champignon ne change rien.
+Si, lors de ses déplacements, Pac-Man passe sur la même case qu’un fantôme (rappelons que pour
+cette itération les fantômes sont immobiles), Pac-Man perd une vie. Lorsque Pac-Man a perdu
+toutes ses vies, le jeu se termine. Pour cette itération, Pac-man possède, au départ, 2 vies.
+Lorsque Pac-Man est devenu Super Pac-Man, il le reste jusqu’à la fin du jeu. Dans cet état, s’il
+rencontre un fantôme, il le mange et, pour cette itération, le fantôme disparaît du jeu. Le jeu se
+termine aussi si tous les fantômes ont disparu.
+A chaque étape (chaque affichage), en plus de réafficher le labyrinthe, vous afficherez les
+informations suivantes concernant l’état du jeu:
+? Le nombre de vie restant à Pac-Man.
+? Le nombre de points de Pac-Man.
+? Le nombre de fantômes dans le labyrinthe.
+? Le nombre de pac-gommes restantes dans le labyrinthe. )
+
+
+----------------
+Analyse du problème - Fonctionnalités
+
+jouer
+------------------
+
+------------------
+
+Diagramme use cases+ DSS de chaque use case (c'est fait)
+---------------
+Diagrame de classe du domaine de Pacman (c'est fait)
+----------------
+
+
+
+Conception
+classe logicielle + le diagramme de séquence. 
